@@ -1,0 +1,39 @@
+<resources>
+    <string name="creator_name">Philips Xu</string>
+    <string name="app_name">Debt Tracker</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="about">About</string>
+    <string name="accounts_payable_title">Accounts Payable</string>
+    <string name="accounts_receivable_tab">Accounts Receivable</string>
+    <string name="new_account_title">Create New Account</string>
+    <string name="name_label">Name:</string>
+    <string name="amount_label">Amount:</string>
+    <string name="save_button">save</string>
+    <string name="bill_amount" />
+    <string name="name_text" />
+    <string name="account_name">Name of Account</string>
+    <string name="amount">Amount</string>
+    <string name="removed_message">Removed</string>
+    <string name="undo_message">Undo</string>
+    <string name="about_section_title">About</string>
+    <string name="about_section_description_subtitle">Description</string>
+    <string name="about_section_description">If you\'re like me, you find it hard
+    to keep track of how much money you owe to your friends. Maybe you also want to
+        record how much money others owe TO YOU. This app allows you to easily store this
+        information and access it whenever you want!</string>
+    <string name="about_section_how_to_use_subtitle">How To Use</string>
+    <string name="about_section_how_to_use">To use this app, simply tap on the add button
+    and select the type of account you would like to record. A Payable account refers to
+    money that you OWE to others, while a Receivable Account refers to money that is OWED to you.</string>
+    <string name="no_name_error">Please enter a name.</string>
+    <string name="no_amount_entered_error">Please enter an amount.</string>
+    <string name="zero_amount_error">Please enter a valid amount.</string>
+    <string name="account_label">Type:</string>
+    <string-array name="spinner_options">
+        <item>Payable Account</item>
+        <item>Receivable Account</item>
+    </string-array>
+
+</resources>

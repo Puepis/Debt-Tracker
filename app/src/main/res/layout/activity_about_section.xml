@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutSectionActivity">
+
+    <TextView
+        android:id="@+id/aboutSectionTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="144dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/about_section_title"
+        android:textAllCaps="true"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/descriptionSubtitleTextView"
+        android:layout_width="112dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/about_section_description_subtitle"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutSectionTitleTextView" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="330dp"
+        android:layout_height="127dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="17dp"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/about_section_description"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionSubtitleTextView" />
+
+    <TextView
+        android:id="@+id/usageSubtitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="142dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/about_section_how_to_use_subtitle"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionTextView" />
+
+    <TextView
+        android:id="@+id/usageTextView"
+        android:layout_width="328dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="17dp"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/about_section_how_to_use"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usageSubtitleTextView" />
+
+    <TextView
+        android:id="@+id/creatorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginLeft="166dp"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/creator_name"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usageTextView" />
+</android.support.constraint.ConstraintLayout>
