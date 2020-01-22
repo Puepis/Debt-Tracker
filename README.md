@@ -6,7 +6,7 @@ To run **Debt Tracker** on your device, you can clone this Github repository and
 
 ## Built With
 
-* [Android Studio](https://developer.android.com/studio) - The library used to launch the game and create its components
+* [Android Studio](https://developer.android.com/studio) - The official IDE used for Android development
 
 ## Author
 
