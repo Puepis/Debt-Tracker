@@ -2,7 +2,6 @@
 Debt Tracker is an Android mobile application that allows users to keep track of the money they owe.
 
 ![image](https://github.com/Puepis/Debt-Tracker/blob/master/about_section.png)
-
 ![image](https://github.com/Puepis/Debt-Tracker/blob/master/account_page.png)
 
 ## Getting Started
