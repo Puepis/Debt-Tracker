@@ -1,9 +1,9 @@
 # Debt-Tracker
 Debt Tracker is an Android mobile application that allows users to keep track of the money they owe.
 
-<img align="left" width="288" height="576" src="https://github.com/Puepis/Debt-Tracker/blob/master/about_section.png">
-<img align="center" width="288" height="576" src="https://github.com/Puepis/Debt-Tracker/blob/master/account_page.png">
-<img align="right" width="288" height="576" src="https://github.com/Puepis/Debt-Tracker/blob/master/new_account_page.png">
+<img align="left" width="259" height="518" src="https://github.com/Puepis/Debt-Tracker/blob/master/about_section.png">
+<img align="center" width="259" height="518" src="https://github.com/Puepis/Debt-Tracker/blob/master/account_page.png">
+<img align="right" width="259" height="518" src="https://github.com/Puepis/Debt-Tracker/blob/master/new_account_page.png">
 
 ## Getting Started
 To run **Debt Tracker** on your device, you can clone this Github repository and sync it with your local machine. 
