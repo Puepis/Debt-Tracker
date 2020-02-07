@@ -5,9 +5,9 @@
     <string name="tab_text_2">Tab 2</string>
     <string name="tab_text_3">Tab 3</string>
     <string name="about">About</string>
-    <string name="accounts_payable_title">Accounts Payable</string>
-    <string name="accounts_receivable_tab">Accounts Receivable</string>
-    <string name="new_account_title">Create New Account</string>
+    <string name="accounts_payable_title">Payables</string>
+    <string name="accounts_receivable_tab">Receivables</string>
+    <string name="new_account_title">New Account</string>
     <string name="name_label">Name:</string>
     <string name="amount_label">Amount:</string>
     <string name="save_button">save</string>
@@ -32,8 +32,8 @@
     <string name="zero_amount_error">Please enter a valid amount.</string>
     <string name="account_label">Type:</string>
     <string-array name="spinner_options">
-        <item>Payable Account</item>
-        <item>Receivable Account</item>
+        <item>I owe...</item>
+        <item>I am owed...</item>
     </string-array>
 
 </resources>

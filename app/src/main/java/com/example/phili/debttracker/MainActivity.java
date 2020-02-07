@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import java.lang.reflect.Type;
@@ -50,7 +51,6 @@ public class MainActivity extends AppCompatActivity {
     private final int CREATE_NEW_ACCOUNT = 1;
     private final String PREF_ACCOUNTS_PAYABLE = "Accounts Payable List";
     private final String PREF_ACCOUNTS_RECEIVABLE = "Accounts Receivable List";
-
 
     /**
      * This method is called when the Activity is launched. It instantiates the necessary
